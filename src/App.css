@@ -1,3 +1,28 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 20px 5px 20px;
+  flex-wrap: wrap;
+}
+
+.logo-nav{
+
+}
+
+.nav-link ul{
+  display: flex;
+  flex-direction: row;
+  column-gap:44px;
+  flex-wrap: wrap;
+}
+
+.nav-link ul a{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
 .App {
   text-align: center;
 }
@@ -34,5 +59,18 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media(max-width: 540px){
+  .nav{
+    justify-content: center;
+  }
+
+  .nav-link ul{
+    row-gap: 10px;
+    padding: 0px;
+    justify-content: center;
   }
 }
