@@ -6,14 +6,19 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 5px 20px 5px 20px;
   flex-wrap: wrap;
+  background-color: transparent;
+  margin-bottom: -80px;
 }
 
 .logo-nav{
 font-family: poppins;
 font-size: 20px;
 font-weight: 700;
+cursor: pointer;
+color: #3BA0A4;
 }
 
 .nav-link ul{
@@ -23,14 +28,113 @@ font-weight: 700;
   flex-wrap: wrap;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .nav-link ul a{
   text-decoration: none;
   list-style-type: none;
+  color: #3BA0A4;
 }
 
 
+.main-div {
+  color: black;
+  height: 100vh;
+  background-image: url(../Assets/Images/image\ \(7\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.div-headingone {
+  font-size: 40px;
+  color: white;
+}
+
+.div-headingone h1{
+  margin: 0px;
+}
+
+.div-headingtwo{
+  font-size: 35px;
+  color: #3BA0A4;
+}
+.div-headingtwo h2{
+  margin: 0px;
+  overflow: hidden; 
+  border-right: .15em solid #3BA0A4;
+  white-space: nowrap; 
+  /* letter-spacing: .15em; */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #3BA0A4 }
+}
+
+.div-para {
+  font-size: 27px;
+  font-weight: 400;
+  padding: 7px 0px 7px 0px;
+  color: white;
+}
+
+.div-para p {
+  margin: 0px;
+}
+
+.div-btn {
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.about-btn {
+  padding: 8px 20px 8px 20px;
+  background-color: #3BA0A4;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-color: transparent;
+  border-radius: 4px;
+
+  transition: transform .3s;
+}
+
+.about-btn:hover{
+  transform: scale(1.1);
+}
+
+.resume-btn {
+  background-color: transparent;
+  padding: 8px 20px 8px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  border-color: #3BA0A4;
+  color: white;
+  border-radius: 4px;
+  transition: transform .3s;
+  cursor: pointer;
+}
+
+.resume-btn:hover{
+  transform:  scale(1.1);
+  background-color: #282c3417;
+}
 .App {
   text-align: center;
 }
@@ -58,7 +162,7 @@ font-weight: 700;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #3BA0A4;
 }
 
 @keyframes App-logo-spin {
@@ -71,9 +175,10 @@ font-weight: 700;
 }
 
 
-@media(max-width: 540px){
+@media(max-width: 714px){
   .nav{
     justify-content: center;
+    margin-bottom: -219px;
   }
 
   .nav-link ul{
@@ -81,4 +186,29 @@ font-weight: 700;
     padding: 0px;
     justify-content: center;
   }
+
+  .main-div{
+    padding-top: 110px;
+  }
+}
+
+@media(max-width:372px){
+  .div-headingone {
+    font-size: 30px;
+}
+
+.div-headingtwo {
+  font-size: 26px;
+}
+
+.div-para {
+  font-size: 20px;
+  padding: 10px 0px 7px 0px;
+}
+
+.div-btn{
+  justify-content: center;
+  row-gap: 20px;
+}
+
 }
