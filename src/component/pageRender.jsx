@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 
 import Navbar from './navbar';
-
+import Footer from './footer';
 import Home from './pages/home';
+
+import About from './pages/about-me';
+
 
 
 function Container() {
@@ -10,11 +13,11 @@ function Container() {
 
     const renderAll = () => {
         if (currentPage === "Home") {
-            return <Home />
+            return <Home currentPage={currentPage} pageChange={pageChange} />
         }
-        // if(currentPage==="about"){
-        //   return 
-        // }
+        if(currentPage==="About"){
+          return <About />
+        }
         // if(currentPage==="portfolio"){
         //   return
         // }
@@ -36,10 +39,15 @@ function Container() {
         <div className="App">
             <div>
                 <Navbar currentPage={currentPage} pageChange={pageChange} />
-                {renderAll()}
+            </div>
+            <div>
+            {renderAll()}
+            </div>
+            <div>
+                <Footer />
             </div>
         </div>
     );
 }
 
-export default Container
+export default Container;
