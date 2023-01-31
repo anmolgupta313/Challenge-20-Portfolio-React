@@ -5,6 +5,7 @@ import Footer from './footer';
 import Home from './pages/home';
 
 import About from './pages/about-me';
+import Contact from './pages/contact';
 
 
 
@@ -21,9 +22,9 @@ function Container() {
         // if(currentPage==="portfolio"){
         //   return
         // }
-        // if(currentPage==="contact"){
-        //   return
-        // }
+        if(currentPage==="Contact"){
+          return <Contact />
+        }
         // if(currentPage==="resume"){
         //   return
         // }
