@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# React Challenge 20- Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description Of the Challenge
+This is the 20th challenge that were given to us by the University Of Toronto in the coding bootcamp. In this challenge we have been asked to write the code from the sacratch which purpose is to create a portfolio using react.
 
-## Available Scripts
+# Completed
+by following all the instructions I am able to done this task and in this task I have completed the code by writing the code and creating file structure and used component for the pages
 
-In the project directory, you can run:
+# Result
 
-### `npm start`
+<img width="1470" alt="Screenshot 2023-02-01 at 4 32 47 PM" src="https://user-images.githubusercontent.com/111723339/216168988-a3000319-795b-4a3c-9131-d1b68022b16e.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="1582" alt="Screenshot 2023-02-01 at 4 33 26 PM" src="https://user-images.githubusercontent.com/111723339/216169024-9f749fc6-7103-4c14-b5c0-c00d4a8f94e9.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="1582" alt="Screenshot 2023-02-01 at 4 33 35 PM" src="https://user-images.githubusercontent.com/111723339/216169041-14f6ae29-0d28-4268-aac6-652ffdbbd1c6.png">
 
-### `npm test`
+<img width="1582" alt="Screenshot 2023-02-01 at 4 33 42 PM" src="https://user-images.githubusercontent.com/111723339/216169064-8c405fa8-babb-4d5f-99ff-4c70bd68a058.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1582" alt="Screenshot 2023-02-01 at 4 33 49 PM" src="https://user-images.githubusercontent.com/111723339/216169089-2b0a6594-ed51-42ee-9ab5-48f88c2025f8.png">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Demonstration Link:
+https://drive.google.com/file/d/1_WUwX30D5FHPCUa3gYysqEsVMjnDZDUn/view
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Repository Links
+https://github.com/anmolgupta313/Challenge-20-Portfolio-React# License
+Please refer to the LICENSE in the repo.
