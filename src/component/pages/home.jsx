@@ -18,7 +18,7 @@ function Home({pageChange}) {
                   <a href="#about">  <button className="about-btn" onClick={()=>{pageChange('About')}}>About Me</button></a>
                 </div>
                 <div>
-                    <button className="resume-btn">Resume</button>
+                    <button className="resume-btn"onClick={()=>{pageChange('Resume')}}>Resume</button>
                 </div>
             </div>
 

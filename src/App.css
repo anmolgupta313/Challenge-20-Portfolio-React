@@ -264,7 +264,7 @@ width:80%;
   padding:30px ;
   border: solid transparent 1px ;
   border-radius: 4px;
-  box-shadow: 0px 6px 20px 4px #00f2ff66
+  box-shadow: 0px 6px 20px 4px #00f2ff66;
 }
 
 form {
@@ -292,6 +292,7 @@ input{
 
 #message{
   min-height: 120px;
+
 }
 
 .btn-div button{
@@ -311,6 +312,69 @@ input{
   color: #3BA0A4;
   border-color: white;
 }
+
+/* Resume Page */
+
+.resume-main-div{
+  padding-top: 105px;
+  background-color: black;
+  color: white;
+}
+
+.resume-main-div h1{
+  text-align: center;
+}
+
+.downlaod-div{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.downlaod-div button{
+  background-color: #3BA0A4;
+  border: none;
+  padding: 8px 25px ;
+  border-radius: 4px;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.downlaod-div button:hover{
+  background-color: white;
+  color: #3BA0A4;
+}
+
+.skills-div {
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+  margin-top: 64px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  padding-bottom: 40px;
+}
+
+.skill-div{
+  border: solid #3BA0A4 0px;
+  box-shadow: 0px 6px 20px 4px #00f2ff66;
+  padding: 20px;
+}
+.skill-div ul li{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.skill-div ul{
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
 /* Mobile Responsive */
 
 @media(max-width:912px){
@@ -322,6 +386,12 @@ input{
 }
 }
 
+@media(max-width:850px){
+  .skills-div{
+    justify-content: flex-start;
+    margin-left: 75px;
+  }
+}
 /* responsive css */
 @media(max-width: 714px) {
   .nav {
@@ -351,6 +421,21 @@ input{
 
   .form-div{
     width: 75%;
+  }
+
+  .resume-main-div{
+    padding-top: 219px;
+  }
+
+  .skills-div{
+    justify-content: center;
+    row-gap: 30px;
+    padding-bottom: 55px;
+    margin-left: 0px;
+  }
+  .skill-div{
+width: 100%;
+margin: 0px 20px 0px 20px;
   }
 }
 

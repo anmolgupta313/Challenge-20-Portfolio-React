@@ -6,6 +6,7 @@ import Home from './pages/home';
 
 import About from './pages/about-me';
 import Contact from './pages/contact';
+import Resume from './pages/resume';
 
 
 
@@ -25,9 +26,9 @@ function Container() {
         if(currentPage==="Contact"){
           return <Contact />
         }
-        // if(currentPage==="resume"){
-        //   return
-        // }
+        if(currentPage==="Resume"){
+          return <Resume />
+        }
         // else{
         //   return
         // }
