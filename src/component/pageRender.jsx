@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState } from 'react';
 
 import Navbar from './navbar';
 import Footer from './footer';
@@ -12,9 +12,7 @@ import Portfolio from './pages/portfolio';
 
 
 function Container() {
-    const [currentPage, setCurrentPage] = useState('About');
-
-
+    const [currentPage, setCurrentPage] = useState('Home');
 
     const renderAll = () => {
         if (currentPage === "Home") {

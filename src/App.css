@@ -303,11 +303,16 @@ input{
   color: white
 
 }
+textarea{
+    width: 100%;
+    border: solid #3BA0A4 2px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white
+  
+  }
 
-#message{
-  min-height: 120px;
 
-}
 
 .btn-div button{
   width: 100%;
