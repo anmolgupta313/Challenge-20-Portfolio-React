@@ -22,7 +22,16 @@ img{width: 100%;
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
+ 
+}
+
+.logo-nav a{
+  text-decoration: none;
   color: #3BA0A4;
+}
+
+.logo-nav a:hover{
+  color: white;
 }
 
 .nav-link ul {
@@ -38,8 +47,13 @@ img{width: 100%;
 .nav-link ul a {
   text-decoration: none;
   list-style-type: none;
-  color: #3BA0A4;
+  color:#3BA0A4;
 }
+
+.nav-link ul a:hover{
+  color: white;
+}
+
 
 /* hoempage css */
 .main-div {
@@ -375,6 +389,55 @@ input{
   align-items: flex-start;
   padding: 0px;
 }
+
+/* Portfolio-Page */
+
+.portfolio-main-div{
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+}
+.portfolio-heading-div h1{
+text-align: center;
+padding-bottom: 40PX;
+}
+
+.cards-main-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 57px;
+  column-gap: 50px;
+  padding-bottom: 60px;
+}
+
+.card-div {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  align-items: center;
+  border: transparent;
+  border-radius: 4px;
+  box-shadow: 0px 6px 20px 4px #00f2ff66;
+  padding-bottom: 20px;
+
+}
+
+.img-portfolio{
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.iconss{
+  width: 70%;
+}
+
+
 /* Mobile Responsive */
 
 @media(max-width:912px){
@@ -390,6 +453,10 @@ input{
   .skills-div{
     justify-content: flex-start;
     margin-left: 75px;
+  }
+
+  .card-div{
+    width: 90%;
   }
 }
 /* responsive css */
@@ -436,6 +503,17 @@ input{
   .skill-div{
 width: 100%;
 margin: 0px 20px 0px 20px;
+  }
+
+  .portfolio-main-div{
+    padding-top: 219px;
+  }
+  .cards-main-div{
+    padding-bottom: 60px;
+  }
+  .card-div{
+    width: 100%;
+    margin: 0px 30px;
   }
 }
 

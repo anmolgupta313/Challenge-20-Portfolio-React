@@ -36,7 +36,7 @@ function Resume() {
                     </ul>
                 </div>
                 <div id="database-div" className="skill-div">
-                <h2>Data Base Skills</h2>
+                <h2>Database Skills</h2>
                     <ul>
                     <li>MySQL</li>
 					<li>Sequelize</li>

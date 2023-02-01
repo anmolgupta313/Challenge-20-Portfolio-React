@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import Navbar from './navbar';
 import Footer from './footer';
@@ -7,11 +7,14 @@ import Home from './pages/home';
 import About from './pages/about-me';
 import Contact from './pages/contact';
 import Resume from './pages/resume';
+import Portfolio from './pages/portfolio';
 
 
 
 function Container() {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('About');
+
+
 
     const renderAll = () => {
         if (currentPage === "Home") {
@@ -20,18 +23,14 @@ function Container() {
         if(currentPage==="About"){
           return <About />
         }
-        // if(currentPage==="portfolio"){
-        //   return
-        // }
-        if(currentPage==="Contact"){
-          return <Contact />
+        if(currentPage==="Portfolio"){
+          return <Portfolio />
         }
         if(currentPage==="Resume"){
           return <Resume />
         }
-        // else{
-        //   return
-        // }
+        return<Contact />
+      
     }
 
     const pageChange = (page) => {

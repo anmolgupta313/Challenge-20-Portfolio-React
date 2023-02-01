@@ -4,7 +4,7 @@ function Navbar({currentPage,pageChange}){
     return(
         <nav className="nav">
             <div className="logo-nav">
-                <p>Anmol Gupta</p>
+                <a onClick={()=>pageChange('Home')} href="#home"><p>Anmol Gupta</p></a>
             </div>
             <div className="nav-link">
                 <ul>
