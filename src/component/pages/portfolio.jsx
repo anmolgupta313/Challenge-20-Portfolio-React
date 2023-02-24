@@ -7,9 +7,18 @@ import custompcbuild from"../../Assets/Images/cutompcbuild.png"
 import weatherdashboard from"../../Assets/Images/weatherdashboard.png"
 import quizchallenge from "../../Assets/Images/quizchallenge.png"
 import workdayscheduler from "../../Assets/Images/workdayscheduler.png"
+import project3 from "../../Assets/Images/project3.png"
+
 
 function Portfolio() {
     const portfolio = [{
+        "image": project3,
+        "title": "Anime Bootcamp",
+        "github": {"icon":github,
+            "link":"https://github.com/renfunny/anime-bootcamp"},
+        "deployedLink": {"icon":web,
+            "link":"https://anime-bootcamp.herokuapp.com/"}
+    },{
         "image": workoutmaker,
         "title": "Workout Maker",
         "github": {"icon":github,
