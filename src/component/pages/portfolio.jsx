@@ -69,7 +69,7 @@ function Portfolio() {
 
 
     const pop = portfolio.map(activity => {
-        console.log(activity.deployedLink)
+        // console.log(activity.deployedLink)
         return (<div className="card-div">
             <div className="img-portfolio">
                 <img src={activity.image} alt="project-img"></img>
@@ -80,10 +80,10 @@ function Portfolio() {
                 </div>
                 <div className="links">
                     <div>
-                        <a href={activity.github.link}><img className="iconss" src={activity.github.icon}></img></a>
+                        <a href={activity.github.link}><img className="iconss" src={activity.github.icon} alt="cat icon"></img></a>
                     </div>
                     <div>
-                        <a href={activity.deployedLink.link}><img className="iconss"src={activity.deployedLink.icon}></img></a>
+                        <a href={activity.deployedLink.link}><img className="iconss"src={activity.deployedLink.icon} alt="web icon` "></img></a>
                     </div>
                 </div>
             </div>

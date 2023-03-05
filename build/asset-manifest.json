@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Challenge-20-Portfolio-React/static/css/main.96cb96f6.css",
-    "main.js": "/Challenge-20-Portfolio-React/static/js/main.0dafde87.js",
+    "main.js": "/Challenge-20-Portfolio-React/static/js/main.7b059af5.js",
     "static/js/787.1ed0c42c.chunk.js": "/Challenge-20-Portfolio-React/static/js/787.1ed0c42c.chunk.js",
     "static/media/cutompcbuild.png": "/Challenge-20-Portfolio-React/static/media/cutompcbuild.ea18edece5b2b991e467.png",
     "static/media/project3.png": "/Challenge-20-Portfolio-React/static/media/project3.b6ec512ea299ddc8a9a4.png",
@@ -10,16 +10,16 @@
     "static/media/workdayscheduler.png": "/Challenge-20-Portfolio-React/static/media/workdayscheduler.4cc84ab714795c0166ea.png",
     "static/media/weatherdashboard.png": "/Challenge-20-Portfolio-React/static/media/weatherdashboard.1bc2b627bb6ec766c80b.png",
     "static/media/notemaker.png": "/Challenge-20-Portfolio-React/static/media/notemaker.0d0826d52984f838b05e.png",
-    "static/media/Anmolresume.pdf": "/Challenge-20-Portfolio-React/static/media/Anmolresume.56f5c9ea5ad69c5f9d8d.pdf",
+    "static/media/Anmolresume.pdf": "/Challenge-20-Portfolio-React/static/media/Anmolresume.f0b176f0b5fb67f85d52.pdf",
     "static/media/quizchallenge.png": "/Challenge-20-Portfolio-React/static/media/quizchallenge.6be94331901397cb6c75.png",
     "static/media/avatar.svg": "/Challenge-20-Portfolio-React/static/media/avatar.297c70c61e90f2f7b7070a6d2c4cf6ef.svg",
     "index.html": "/Challenge-20-Portfolio-React/index.html",
     "main.96cb96f6.css.map": "/Challenge-20-Portfolio-React/static/css/main.96cb96f6.css.map",
-    "main.0dafde87.js.map": "/Challenge-20-Portfolio-React/static/js/main.0dafde87.js.map",
+    "main.7b059af5.js.map": "/Challenge-20-Portfolio-React/static/js/main.7b059af5.js.map",
     "787.1ed0c42c.chunk.js.map": "/Challenge-20-Portfolio-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96cb96f6.css",
-    "static/js/main.0dafde87.js"
+    "static/js/main.7b059af5.js"
   ]
 }

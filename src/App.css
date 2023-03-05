@@ -255,6 +255,37 @@ width:80%;
   width: 100%;
 }
 
+.hobbies-card-main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px 60px 0px;
+  flex-wrap: wrap;
+}
+.hobbies-card {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 25px;
+  align-items: center;
+  justify-content: center;
+  border: transparent;
+  border-radius: 4px;
+  box-shadow: 0px 6px 20px 4px #00f2ff66;
+  padding: 17px 5px 17px 5px;
+  width: 20%;
+  flex-wrap: wrap;
+}
+.hobbies-main-div h3{
+  padding-top: 30px;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  
+}
+p.hobbies-title {
+  color: white;
+  font-size: 19px;
+  font-weight: 500;
+}
 
 /* Contact Page */
 
@@ -462,6 +493,18 @@ padding-bottom: 40PX;
 
   .card-div{
     width: 90%;
+  }
+}
+
+@media(max-width:767px){
+  .hobbies-card-main{
+    margin: 20px;
+    row-gap: 20px;
+    padding: 10px 0px 50px 0px ;
+  }
+  .hobbies-card{
+    width: 100%;
+    justify-content: space-around;
   }
 }
 /* responsive css */
