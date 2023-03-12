@@ -26,7 +26,7 @@ function About() {
                         project managers to understand their customer journeys and developed wireframes and front end websites to provide them with smooth user experience. 
                         These websites helped to increase footfall and revenue for these companies.
                     </p>
-                    <p class="aboutme-Summary"> I migrated to Canada in 2022 and completed by graduation in full stack web development from University of Toronto,
+                    <p class="aboutme-Summary"> I migrated to Canada in 2022 and completed my graduation in full stack web development from University of Toronto,
                         where I learned new coding languages and enhanced my web development skills. While studying, I worked on various assignments and team projects for building
                          customer centric websites using different frameworks and languages such as React, Java Script, CSS for the frontend and created MongoDB and MySQL data bases using Mongoose and SQL libraries .</p>
                     <p class="aboutme-Summary">  I look forward to using my skillsets and experience and helping you with your web development needs.</p>
