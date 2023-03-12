@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Challenge-20-Portfolio-React/static/css/main.d44027bd.css",
-    "main.js": "/Challenge-20-Portfolio-React/static/js/main.9149f5a1.js",
+    "main.js": "/Challenge-20-Portfolio-React/static/js/main.8471bd18.js",
     "static/js/787.1ed0c42c.chunk.js": "/Challenge-20-Portfolio-React/static/js/787.1ed0c42c.chunk.js",
     "static/media/cutompcbuild.png": "/Challenge-20-Portfolio-React/static/media/cutompcbuild.ea18edece5b2b991e467.png",
     "static/media/project3.png": "/Challenge-20-Portfolio-React/static/media/project3.b6ec512ea299ddc8a9a4.png",
@@ -10,16 +10,16 @@
     "static/media/workdayscheduler.png": "/Challenge-20-Portfolio-React/static/media/workdayscheduler.4cc84ab714795c0166ea.png",
     "static/media/weatherdashboard.png": "/Challenge-20-Portfolio-React/static/media/weatherdashboard.1bc2b627bb6ec766c80b.png",
     "static/media/notemaker.png": "/Challenge-20-Portfolio-React/static/media/notemaker.0d0826d52984f838b05e.png",
-    "static/media/Anmolresume.pdf": "/Challenge-20-Portfolio-React/static/media/Anmolresume.df6282de9d1c54a71996.pdf",
+    "static/media/Anmolresume.pdf": "/Challenge-20-Portfolio-React/static/media/Anmolresume.45b11fd0c4d620e6a4d1.pdf",
     "static/media/quizchallenge.png": "/Challenge-20-Portfolio-React/static/media/quizchallenge.6be94331901397cb6c75.png",
     "static/media/avatar.svg": "/Challenge-20-Portfolio-React/static/media/avatar.297c70c61e90f2f7b7070a6d2c4cf6ef.svg",
     "index.html": "/Challenge-20-Portfolio-React/index.html",
     "main.d44027bd.css.map": "/Challenge-20-Portfolio-React/static/css/main.d44027bd.css.map",
-    "main.9149f5a1.js.map": "/Challenge-20-Portfolio-React/static/js/main.9149f5a1.js.map",
+    "main.8471bd18.js.map": "/Challenge-20-Portfolio-React/static/js/main.8471bd18.js.map",
     "787.1ed0c42c.chunk.js.map": "/Challenge-20-Portfolio-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d44027bd.css",
-    "static/js/main.9149f5a1.js"
+    "static/js/main.8471bd18.js"
   ]
 }
