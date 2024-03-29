@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/Challenge-20-Portfolio-React/static/css/main.d44027bd.css",
-    "main.js": "/Challenge-20-Portfolio-React/static/js/main.7cefd586.js",
+    "main.css": "/Challenge-20-Portfolio-React/static/css/main.b1f60f26.css",
+    "main.js": "/Challenge-20-Portfolio-React/static/js/main.0442f243.js",
     "static/js/787.1ed0c42c.chunk.js": "/Challenge-20-Portfolio-React/static/js/787.1ed0c42c.chunk.js",
+    "static/media/akicks.png": "/Challenge-20-Portfolio-React/static/media/akicks.a1b519dceb633ab8d316.png",
     "static/media/cutompcbuild.png": "/Challenge-20-Portfolio-React/static/media/cutompcbuild.ea18edece5b2b991e467.png",
+    "static/media/workoutmaker.png": "/Challenge-20-Portfolio-React/static/media/workoutmaker.fac24c14cbd7eda3228c.png",
+    "static/media/airbnb.png": "/Challenge-20-Portfolio-React/static/media/airbnb.ca0d4855fe9f330c8fc4.png",
     "static/media/project3.png": "/Challenge-20-Portfolio-React/static/media/project3.b6ec512ea299ddc8a9a4.png",
     "static/media/image (7).png": "/Challenge-20-Portfolio-React/static/media/image (7).5d3aef051ff16f1ddaa4.png",
-    "static/media/workoutmaker.png": "/Challenge-20-Portfolio-React/static/media/workoutmaker.3beadb9174033e0a986a.png",
     "static/media/workdayscheduler.png": "/Challenge-20-Portfolio-React/static/media/workdayscheduler.4cc84ab714795c0166ea.png",
-    "static/media/weatherdashboard.png": "/Challenge-20-Portfolio-React/static/media/weatherdashboard.1bc2b627bb6ec766c80b.png",
+    "static/media/weatherdashboard.png": "/Challenge-20-Portfolio-React/static/media/weatherdashboard.c37ce142463666d8fcc6.png",
+    "static/media/quizchallenge.png": "/Challenge-20-Portfolio-React/static/media/quizchallenge.ab4aeb389c00bb6d9ce5.png",
     "static/media/notemaker.png": "/Challenge-20-Portfolio-React/static/media/notemaker.0d0826d52984f838b05e.png",
-    "static/media/Anmolresume.pdf": "/Challenge-20-Portfolio-React/static/media/Anmolresume.b044232d28f9c2848fc6.pdf",
-    "static/media/quizchallenge.png": "/Challenge-20-Portfolio-React/static/media/quizchallenge.6be94331901397cb6c75.png",
+    "static/media/translate.png": "/Challenge-20-Portfolio-React/static/media/translate.54c21c64ca73145c5c8a.png",
+    "static/media/Anmolresume.pdf": "/Challenge-20-Portfolio-React/static/media/Anmolresume.74c671b46a2edd3a9224.pdf",
     "static/media/avatar.svg": "/Challenge-20-Portfolio-React/static/media/avatar.297c70c61e90f2f7b7070a6d2c4cf6ef.svg",
     "index.html": "/Challenge-20-Portfolio-React/index.html",
-    "main.d44027bd.css.map": "/Challenge-20-Portfolio-React/static/css/main.d44027bd.css.map",
-    "main.7cefd586.js.map": "/Challenge-20-Portfolio-React/static/js/main.7cefd586.js.map",
+    "main.b1f60f26.css.map": "/Challenge-20-Portfolio-React/static/css/main.b1f60f26.css.map",
+    "main.0442f243.js.map": "/Challenge-20-Portfolio-React/static/js/main.0442f243.js.map",
     "787.1ed0c42c.chunk.js.map": "/Challenge-20-Portfolio-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d44027bd.css",
-    "static/js/main.7cefd586.js"
+    "static/css/main.b1f60f26.css",
+    "static/js/main.0442f243.js"
   ]
 }
