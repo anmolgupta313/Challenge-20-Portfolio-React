@@ -214,7 +214,7 @@ width:80%;
 /*About Page css  */
 
 .about-main-div{
- padding-top: 80px;
+ padding-top: 116px;
  background-color: black;
  color: #3BA0A4;
  display: flex;
@@ -286,7 +286,14 @@ p.hobbies-title {
   font-size: 19px;
   font-weight: 500;
 }
+.description{
+font-size: 15px;
+line-height: 1.8;
+}
 
+.content-div {
+  padding: 20px;
+}
 /* Contact Page */
 
 .form-main-div {
@@ -366,7 +373,7 @@ textarea{
 /* Resume Page */
 
 .resume-main-div{
-  padding-top: 105px;
+  padding-top: 126px;
   background-color: black;
   color: white;
 }
@@ -521,17 +528,17 @@ padding-bottom: 40PX;
   }
 
   .main-div {
-    padding-top: 110px;
+    padding-top: 0px;
   }
   .div-para {
     text-align: center;
   }
 
   .about-main-div{
-    padding-top: 219px;
+    padding-top: 119px;
   }
   .form-main-div{
-      padding-top: 219px;
+      padding-top: 119px;
   }
 
   .form-div{
@@ -539,7 +546,7 @@ padding-bottom: 40PX;
   }
 
   .resume-main-div{
-    padding-top: 219px;
+    padding-top: 119px;
   }
 
   .skills-div{
@@ -554,7 +561,7 @@ margin: 0px 20px 0px 20px;
   }
 
   .portfolio-main-div{
-    padding-top: 219px;
+    padding-top: 119px;
   }
   .cards-main-div{
     padding-bottom: 60px;

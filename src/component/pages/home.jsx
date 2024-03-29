@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home({ pageChange }) {
+function Home() {
     return (
         <div className="main-div">
             <div className="div-headingone">
@@ -15,10 +15,10 @@ function Home({ pageChange }) {
             </div>
             <div className="div-btn">
                 <div>
-                    <a href="#about">  <button className="about-btn" onClick={() => { pageChange('About') }}>About Me</button></a>
+                    <a href="/About">  <button className="about-btn" >About Me</button></a>
                 </div>
                 <div>
-                    <button className="resume-btn" onClick={() => { pageChange('Resume') }}>Resume</button>
+                  <a href="/Resume">  <button className="resume-btn" >Resume</button></a>
                 </div>
             </div>
 
