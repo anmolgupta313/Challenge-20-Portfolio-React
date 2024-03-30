@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter,BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import Header from "./component/navbar";
@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header windowDimenssion={windowDimenssion} detectSize={detectSize} />
       <div className="App">
         <Routes>
@@ -33,7 +33,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
