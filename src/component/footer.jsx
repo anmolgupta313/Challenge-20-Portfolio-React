@@ -25,7 +25,7 @@ function Footer() {
             </div>
             <hr></hr>
             <div className="right-div">
-                <p>Ⓒ 2023 All rights reserved | Developed & Designed By Anmol Gupta</p>
+                <p>Ⓒ 2024 All rights reserved | Developed & Designed By Anmol Gupta</p>
             </div>
         </div>
     )
