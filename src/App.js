@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./component/pages/home";
+
 import Header from "./component/navbar";
+import Home from "./component/pages/home";
 import About from "./component/pages/about-me";
 import Portfolio from "./component/pages/portfolio";
 import Resume from "./component/pages/resume";
